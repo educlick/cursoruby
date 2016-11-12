@@ -3,7 +3,7 @@
 <table>
   <thead>
     <tr>
-      <th>Make</th>
+      <th>Company</th>
       <th>Color</th>
       <th>Year</th>
       <th></th>
@@ -15,7 +15,7 @@
   <tbody>
     <% @cars.each do |car| %>
       <tr>
-        <td><%= car.make %></td>
+        <td><%= car.company %></td>
         <td><%= car.color %></td>
         <td><%= car.year %></td>
         <td><%= link_to 'Show', car %></td>
